@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyCards_Example' do
+  pod 'SwiftyCards', :path => '../'
+
+  target 'SwiftyCards_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
