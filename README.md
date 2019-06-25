@@ -8,7 +8,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-[SwiftyCards youtube video](https://img.youtube.com/vi/NBke9uGVHvo/0.jpg)](https://www.youtube.com/watch?v=NBke9uGVHvo)
+[![SwiftyCards youtube video](https://img.youtube.com/vi/NBke9uGVHvo/0.jpg)](https://www.youtube.com/watch?v=NBke9uGVHvo)
 
 ## Requirements
 Swift 4.0+
