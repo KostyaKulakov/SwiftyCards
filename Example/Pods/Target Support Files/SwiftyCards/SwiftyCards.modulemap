@@ -1,0 +1,6 @@
+framework module SwiftyCards {
+  umbrella header "SwiftyCards-umbrella.h"
+
+  export *
+  module * { export * }
+}

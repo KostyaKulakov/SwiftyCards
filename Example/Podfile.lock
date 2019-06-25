@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCards (0.1.2)
+
+DEPENDENCIES:
+  - SwiftyCards (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyCards:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyCards: 1e12e684ea1bfac88262fe7e4044afced3df4f75
+
+PODFILE CHECKSUM: b9ca7df9340a15a9cc6c70d4361dc8ced38e8cc3
+
+COCOAPODS: 1.7.1

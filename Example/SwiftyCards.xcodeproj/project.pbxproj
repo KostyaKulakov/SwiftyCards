@@ -14,6 +14,12 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		932DC92AA1797D1DC686EC41 /* Pods_SwiftyCards_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3D1E7759D52A06C301FF2C /* Pods_SwiftyCards_Example.framework */; };
+		C01D4D1F22C251F500DDDD89 /* LabelAndTextCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01D4D1922C251F500DDDD89 /* LabelAndTextCard.xib */; };
+		C01D4D2022C251F500DDDD89 /* JustTextCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01D4D1A22C251F500DDDD89 /* JustTextCard.xib */; };
+		C01D4D2122C251F500DDDD89 /* BankCardExampleCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01D4D1B22C251F500DDDD89 /* BankCardExampleCard.xib */; };
+		C01D4D2222C251F500DDDD89 /* LabelAndTextCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D4D1C22C251F500DDDD89 /* LabelAndTextCard.swift */; };
+		C01D4D2322C251F500DDDD89 /* JustTextCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D4D1D22C251F500DDDD89 /* JustTextCard.swift */; };
+		C01D4D2422C251F500DDDD89 /* BankCardExampleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D4D1E22C251F500DDDD89 /* BankCardExampleCard.swift */; };
 		F332D8D846C008DB4684670E /* Pods_SwiftyCards_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D33E6E1297B23101A45995C /* Pods_SwiftyCards_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +36,7 @@
 /* Begin PBXFileReference section */
 		0D2DDD407B3C50334337D7DC /* Pods-SwiftyCards_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCards_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyCards_Tests/Pods-SwiftyCards_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D496A5FE3E15210B9B6C2BF /* Pods-SwiftyCards_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCards_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyCards_Tests/Pods-SwiftyCards_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3A7C7BDAB6402393CFD1FF0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3A7C7BDAB6402393CFD1FF0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E3F0D9606EC9B175F6C1A3F /* Pods-SwiftyCards_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCards_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyCards_Example/Pods-SwiftyCards_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyCards_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyCards_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +50,14 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D33E6E1297B23101A45995C /* Pods_SwiftyCards_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCards_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3D1E7759D52A06C301FF2C /* Pods_SwiftyCards_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCards_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9FD05111F04FBACFF899CFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B5E313182F50B51BA8817E12 /* SwiftyCards.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyCards.podspec; path = ../SwiftyCards.podspec; sourceTree = "<group>"; };
+		A9FD05111F04FBACFF899CFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5E313182F50B51BA8817E12 /* SwiftyCards.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyCards.podspec; path = ../SwiftyCards.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C01D4D1922C251F500DDDD89 /* LabelAndTextCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelAndTextCard.xib; sourceTree = "<group>"; };
+		C01D4D1A22C251F500DDDD89 /* JustTextCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JustTextCard.xib; sourceTree = "<group>"; };
+		C01D4D1B22C251F500DDDD89 /* BankCardExampleCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankCardExampleCard.xib; sourceTree = "<group>"; };
+		C01D4D1C22C251F500DDDD89 /* LabelAndTextCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelAndTextCard.swift; sourceTree = "<group>"; };
+		C01D4D1D22C251F500DDDD89 /* JustTextCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustTextCard.swift; sourceTree = "<group>"; };
+		C01D4D1E22C251F500DDDD89 /* BankCardExampleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardExampleCard.swift; sourceTree = "<group>"; };
 		F92E216C4791845474B8A723 /* Pods-SwiftyCards_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCards_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyCards_Example/Pods-SwiftyCards_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +105,7 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyCards */ = {
 			isa = PBXGroup;
 			children = (
+				C01D4D1822C251F500DDDD89 /* Examples */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,7 +160,6 @@
 				0D2DDD407B3C50334337D7DC /* Pods-SwiftyCards_Tests.debug.xcconfig */,
 				1D496A5FE3E15210B9B6C2BF /* Pods-SwiftyCards_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +170,19 @@
 				6D33E6E1297B23101A45995C /* Pods_SwiftyCards_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01D4D1822C251F500DDDD89 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				C01D4D1922C251F500DDDD89 /* LabelAndTextCard.xib */,
+				C01D4D1A22C251F500DDDD89 /* JustTextCard.xib */,
+				C01D4D1B22C251F500DDDD89 /* BankCardExampleCard.xib */,
+				C01D4D1C22C251F500DDDD89 /* LabelAndTextCard.swift */,
+				C01D4D1D22C251F500DDDD89 /* JustTextCard.swift */,
+				C01D4D1E22C251F500DDDD89 /* BankCardExampleCard.swift */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +252,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -249,6 +275,9 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				C01D4D2022C251F500DDDD89 /* JustTextCard.xib in Resources */,
+				C01D4D2122C251F500DDDD89 /* BankCardExampleCard.xib in Resources */,
+				C01D4D1F22C251F500DDDD89 /* LabelAndTextCard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +362,9 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C01D4D2322C251F500DDDD89 /* JustTextCard.swift in Sources */,
+				C01D4D2422C251F500DDDD89 /* BankCardExampleCard.swift in Sources */,
+				C01D4D2222C251F500DDDD89 /* LabelAndTextCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +451,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -465,10 +498,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -478,10 +512,12 @@
 			baseConfigurationReference = 4E3F0D9606EC9B175F6C1A3F /* Pods-SwiftyCards_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftyCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kostyakulakov.swiftycards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +529,12 @@
 			baseConfigurationReference = F92E216C4791845474B8A723 /* Pods-SwiftyCards_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftyCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kostyakulakov.swiftycards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D2DDD407B3C50334337D7DC /* Pods-SwiftyCards_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +568,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D496A5FE3E15210B9B6C2BF /* Pods-SwiftyCards_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
